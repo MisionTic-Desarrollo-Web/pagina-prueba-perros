@@ -20,16 +20,31 @@ ul{
 
 .mainButton{
     background-color: #1bb76e;
+}
+
+.button{
     color: white;
     border: 0px;
     padding: 5px 10px;
     border-radius: 10px;
     font-weight: bolder;
+}
+
+.button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+.mainButton:hover{    
+    box-shadow: 1px 1px green;    
+}
+
+.secondaryButton{
+    background-color: #48c4f5;   
     
 }
 
-.mainButton:hover{
-    cursor: pointer;
-    box-shadow: 1px 1px green;
-    transform: scale(1.1);
+.secondaryButton:hover{    
+    box-shadow: 1px 1px rgb(24, 107, 145);    
 }
